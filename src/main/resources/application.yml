@@ -1,0 +1,14 @@
+keycloak:
+  realm: kruger
+  auth-server-url: http://localhost:8180
+  resource: vm-microservices
+
+spring:
+  data:
+    mongodb:
+      username: user
+      password: password
+      authentication-database: admin
+      port: 27017
+      host: mongo
+      database: tekbees
